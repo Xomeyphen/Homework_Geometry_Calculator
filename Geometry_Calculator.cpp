@@ -46,6 +46,27 @@ int main() {
 				if (Rad < 0) {
 					cout << "Number can not be below zero.";
 					continue;
+				/*
+				can also use:
+    				
+    				cin >> rad;
+    				while(rad < 0) {
+				cout << "radius cant be negtive";
+    				cin >> rad;
+				}
+    				area = 3.1315 * rad * rad;
+				cout  <<area: << area;
+
+    				*or
+
+ 				do {
+     				cout << "enter rad: ";
+	 			cin >> rad;
+     				} while (rad < 0)
+	 			area = 3.1415 * rad * rad;
+     				cout << "the area is: " << area;
+	 			
+				*/
 				}
 				Area = pi * pow(Rad, 2);
 				cout << Area << endl;
